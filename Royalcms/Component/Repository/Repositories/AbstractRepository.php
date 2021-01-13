@@ -262,7 +262,7 @@ abstract class AbstractRepository implements RepositoryContract
      * @param $column
      * @param null $operator
      * @param null $value
-     * @return NotificationRepository
+     * @return self
      */
     public function addWhereQuery($column, $operator = null, $value = null)
     {
